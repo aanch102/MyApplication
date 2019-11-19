@@ -8,13 +8,13 @@
     android:layout_height="match_parent"
     >
 
-
     <EditText
         android:id="@+id/etresult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:gravity="right"/>
+        android:gravity="right"
+        android:layout_margin="1dp"/>
 <GridLayout
 
     android:layout_width="match_parent"
@@ -31,6 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
@@ -42,6 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
@@ -53,6 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="3"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
@@ -61,10 +64,11 @@
         android:textSize="30sp"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+"
-        android:background="#ffffff"
+        android:background="#f04c16"
         android:textColor="#000000"
         />
     <Button
@@ -75,6 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="4"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
@@ -86,6 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="5"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
@@ -97,6 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="6"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
@@ -108,7 +115,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="*"
-        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:background="#f04c16"
         android:textColor="#000000"
         />
     <Button
@@ -119,6 +127,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="7"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
@@ -130,6 +139,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="8"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
@@ -142,10 +152,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="9"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
-
     <Button
         android:id="@+id/btnsub"
         android:textSize="30sp"
@@ -154,7 +164,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="-"
-        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:background="#f04c16"
         android:textColor="#000000"
         />
     <Button
@@ -165,10 +176,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
+        android:layout_margin="5dp"
         android:background="#c8f5fa"
         android:textColor="#000000"
         />
-
     <Button
         android:id="@+id/btnclear"
         android:textSize="30sp"
@@ -177,7 +188,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="C"
-        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:background="#8f8683"
         android:textColor="#000000"
         />
 
@@ -189,7 +201,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="="
-        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:background="#8f8683"
         android:textColor="#000000"
         />
 
@@ -201,7 +214,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="/"
-        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:background="#f04c16"
         android:textColor="#000000"
         />
 
